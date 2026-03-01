@@ -1,0 +1,18 @@
+project_id = "zbzjnoyfbnwynyvtyngb"
+
+[api]
+enabled = true
+port = 54321
+
+[db]
+port = 54322
+
+[studio]
+enabled = true
+port = 54323
+
+[functions.agendar-sessao]
+verify_jwt = false
+
+[functions.monitor-security]
+verify_jwt = false
